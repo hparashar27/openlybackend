@@ -1,0 +1,15 @@
+{
+  "name": "openlysource",
+  "version": "1.0.0",
+  "description": "this is for the openlysource backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harsh parashar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0"
+  }
+}
