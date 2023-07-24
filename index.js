@@ -9,6 +9,10 @@ mongoose.connect( process.env.DATABASE_URL,{
   console.log("DB Connection is established");
 });
 
+// app.use("/api/opportunities", opportunitiesRoutes);
+app.use("/api", require("./routes/Members/index"));
+app.use("/api", require("./routes/Opportunities/index"));
+
 app.get('/', (req, res) => {
   res.json({ message: 'Hello, World!' });
 });
